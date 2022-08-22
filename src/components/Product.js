@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Body from './Body';
+import FComment from './FComment';
+import Comment from './Comment';
 
 class Product extends Component {
     render() {
         return (
-            <div>
-            </div>    
+            <div className='ui container comments'>
+                <FComment author="Thao"/>
+                <Comment/>
+            </div>
         )
     }
 }

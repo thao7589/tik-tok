@@ -9,6 +9,7 @@ function App() {
       return [expense, ...expenses];
     });
   };
+
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
